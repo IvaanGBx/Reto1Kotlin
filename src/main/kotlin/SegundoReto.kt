@@ -36,6 +36,10 @@ fun menus(menu: Int){
     }
 }
 
+fun volver(){
+
+}
+
 fun makeRecipe(){
     println("\n Selecciona un ingrediente para agregar a tu nueva receta \n")
     println("0. Volver")

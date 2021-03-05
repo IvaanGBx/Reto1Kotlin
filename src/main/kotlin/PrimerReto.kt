@@ -60,7 +60,7 @@ fun main(){
                 //Ver recetas
                 2 -> {
                     opciones(3)
-                    ingredientes = ingredientes?.toString() ?: "No hay ingredientes en su receta\n"
+                    ingredientes = ingredientes ?: "No hay ingredientes en su receta\n"
                     println(ingredientes)
                     break@menuInicial
                 }
